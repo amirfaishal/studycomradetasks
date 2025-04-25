@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-bar {
+    background-color: #f4bb6c;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+  }
+  
+  .social-icons a img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .search input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+  }
+  
+  header {
+    background: #000;
+    color: white;
+    padding: 10px 16px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline-block;
+  }
+  
+  .logo span {
+    color: gold;
+  }
+  
+  .logo p {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a.active,
+  nav ul li a:hover {
+    border-bottom: 2px solid gold;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .main-article {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+  }
+  
+  .featured {
+    flex: 2;
+    position: relative;
+  }
+  
+  .featured img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    max-width: 90%;
+  }
+  
+  .overlay-text h1 {
+    font-size: 28px;
+  }
+  
+  .overlay-text .meta {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .side-articles {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #000;
+    color: white;
+    padding: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .card h2 {
+    font-size: 16px;
+    margin: 10px 0 0;
+  }
+  
